@@ -1,3 +1,5 @@
 Version:0.0.3
 VersionDiscordAndYoutube:1.9.7
 DeffoultStartDiscordAndYoutube:general (ALT3).bat
+VersionTgWsProxy:1.5.1
+DeffoultStartDisVersionTgWsProxy:TgWsProxy.exe
