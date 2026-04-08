@@ -31,7 +31,7 @@ powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/S
 
 :: 5. Создаем ярлык на рабочем столе
 echo Creating desktop shortcut...
-powershell -Command "$WScriptShell = New-Object -ComObject WScript.Shell; $Shortcut = $WScriptShell.CreateShortcut('%DESKTOP%\UZapret.lnk'); $Shortcut.TargetPath = '%DOCS%\UZapret.exe'; $Shortcut.WorkingDirectory = '%DOCS%'; $Shortcut.Save()"
+powershell -Command "$WScriptShell = New-Object -ComObject WScript.Shell; $Shortcut = $WScriptShell.CreateShortcut('%DESKTOP%\UZapret.lnk'); $Shortcut.TargetPath = '%DOCS%\UZapret.exe'; $Shortcut.WorkingDirectory = '%DOCS%'; $Shortcut.IconLocation = '%DOCS%\UZapret.exe'; $Shortcut.Save()"
 
 echo.
 echo ========================================
