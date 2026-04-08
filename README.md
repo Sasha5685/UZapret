@@ -1,22 +1,16 @@
 # 🚀 UZapret
 
-[![Version](https://img.shields.io/badge/version-0.0.5-blue.svg)](https://github.com/Sasha5685/UZapret/releases)
-[![Downloads](https://img.shields.io/github/downloads/Sasha5685/UZapret/total.svg)](https://github.com/Sasha5685/UZapret/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-
 ## 📖 О программе
 
 **UZapret** - программа для простых, нищих людей :
 
 ## 📥 Скачать
 
-### 🏆 Рекомендуемая версия (для обычных пользователей)
-
 > **Просто скачайте и запустите - всё сделается автоматически!**
 
 | Версия | Ссылка | Описание |
 |--------|--------|----------|
-| 🚀 **Автоустановщик** | [⬇️ Скачать UZapretLoader.bat](https://github.com/Sasha5685/UZapret/releases/download/v0.0.5/UZapretLoader.bat)
+| 🚀 **Автоустановщик** | [⬇️ Скачать UZapretLoader.bat](https://raw.githubusercontent.com/Sasha5685/UZapret/main/UZapretLoader.bat?raw=true)
 
 
 ## 🚀 Быстрая установка
