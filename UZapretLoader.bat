@@ -29,9 +29,43 @@ powershell -Command "Add-MpPreference -ExclusionProcess 'UZapret.exe'"
 echo Downloading UZapret.exe...
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Sasha5685/UZapret/main/UZapret.exe' -OutFile '%DOCS%\UZapret.exe'"
 
-:: 5. Создаем ярлык на рабочем столе
+:: 5. Создаем ярлык на рабочем столе (способ 1 - VBScript)
 echo Creating desktop shortcut...
-powershell -Command "$WScriptShell = New-Object -ComObject WScript.Shell; $Shortcut = $WScriptShell.CreateShortcut('%DESKTOP%\UZapret.lnk'); $Shortcut.TargetPath = '%DOCS%\UZapret.exe'; $Shortcut.WorkingDirectory = '%DOCS%'; $Shortcut.IconLocation = '%DOCS%\UZapret.exe'; $Shortcut.Save()"
+(
+echo Set oWS = WScript.CreateObject("WScript.Shell"^)
+echo sLinkFile = "%DESKTOP%\UZapret.lnk"
+echo Set oLink = oWS.CreateShortcut(sLinkFile^)
+echo oLink.TargetPath = "%DOCS%\UZapret.exe"
+echo oLink.WorkingDirectory = "%DOCS%"
+echo oLink.IconLocation = "%DOCS%\UZapret.exe"
+echo oLink.Save
+) > "%temp%\create_shortcut.vbs"
+
+cscript //nologo "%temp%\create_shortcut.vbs"
+del "%temp%\create_shortcut.vbs"
+
+:: Проверяем создался ли ярлык
+if exist "%DESKTOP%\UZapret.lnk" (
+    echo Shortcut created successfully!
+    goto :success
+)
+
+:: 6. Если не получилось, создаем bat файл (способ 2)
+echo Failed to create lnk shortcut. Creating bat file instead...
+(
+echo @echo off
+echo start "" "%DOCS%\UZapret.exe"
+) > "%DESKTOP%\UZapret.bat"
+
+:: 7. Или создаем URL файл (способ 3)
+echo Also creating URL shortcut...
+(
+echo [InternetShortcut]
+echo URL=file:///%DOCS%\UZapret.exe
+echo IconIndex=0
+echo IconFile=%DOCS%\UZapret.exe
+) > "%DESKTOP%\UZapret.url"
+
 
 echo.
 echo ========================================
