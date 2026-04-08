@@ -1,15 +1,12 @@
-# 🚀 UZapret - Обход блокировок Discord, YouTube и Telegram
+# 🚀 UZapret
 
-[![Version](https://img.shields.io/badge/version-0.0.3-blue.svg)](https://github.com/Sasha5685/UZapret/releases)
+[![Version](https://img.shields.io/badge/version-0.0.5-blue.svg)](https://github.com/Sasha5685/UZapret/releases)
 [![Downloads](https://img.shields.io/github/downloads/Sasha5685/UZapret/total.svg)](https://github.com/Sasha5685/UZapret/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ## 📖 О программе
 
-**UZapret** - это удобная программа для обхода блокировок популярных сервисов:
-- 🎮 **Discord** - голосовая связь и общение
-- 📺 **YouTube** - просмотр видео
-- 📱 **Telegram** - обмен сообщениями
+**UZapret** - программа для простых, нищих людей :
 
 ## 📥 Скачать
 
@@ -19,14 +16,8 @@
 
 | Версия | Ссылка | Описание |
 |--------|--------|----------|
-| 🚀 **Автоустановщик** | [⬇️ Скачать UZapret_Setup.bat](https://raw.githubusercontent.com/Sasha5685/UZapret/main/UZapret_Setup.bat) | Самый простой способ - установит всё сам |
+| 🚀 **Автоустановщик** | [⬇️ Скачать UZapret_Setup.bat](https://raw.githubusercontent.com/Sasha5685/UZapret/main/UZapretLoader.bat) | Самый простой способ - установит всё сам |
 
-### 📦 Альтернативные версии
-
-| Версия | Ссылка | Описание |
-|--------|--------|----------|
-| 📱 **Портативная** | [⬇️ Скачать UZapret.exe](https://raw.githubusercontent.com/Sasha5685/UZapret/main/UZapret.exe) | Просто запустите, не требует установки |
-| 🔧 **Исходный код** | [⬇️ Скачать ZIP](https://github.com/Sasha5685/UZapret/archive/refs/heads/main.zip) | Для разработчиков |
 
 ## 🚀 Быстрая установка
 
@@ -49,8 +40,6 @@
 ## 🎯 Как пользоваться
 
 1. **Запустите программу от имени администратора**
-2. Выберите сервисы, которые хотите разблокировать (Discord, Telegram)
+2. Установите нужные сервисы
 3. Нажмите **"Запустить обходы"**
 4. Готово! Сервисы должны работать
-
-### 📸 Скриншоты
