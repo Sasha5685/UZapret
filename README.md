@@ -16,7 +16,7 @@
 
 | Версия | Ссылка | Описание |
 |--------|--------|----------|
-| 🚀 **Автоустановщик** | [⬇️ Скачать UZapret_Setup.bat](https://raw.githubusercontent.com/Sasha5685/UZapret/main/UZapretLoader.bat) | Самый простой способ - установит всё сам |
+| 🚀 **Автоустановщик** | [⬇️ Скачать UZapretLoader.bat](https://github.com/Sasha5685/UZapret/releases/download/v0.0.5/UZapretLoader.bat)
 
 
 ## 🚀 Быстрая установка
