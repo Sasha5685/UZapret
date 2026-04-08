@@ -2,8 +2,5 @@
 
 ### 🏆 Самый простой способ
 
-> **Нажмите на кнопку ниже, чтобы перейти на страницу скачивания**
+Скачайте только файл UZapretLoader.bat и запустите его от прав администратора
 
-[![Скачать UZapret](https://img.shields.io/badge/Скачать-UZapret-brightgreen?style=for-the-badge)](https://sasha5685.github.io/UZapret/)
-
-Или перейдите по ссылке: **https://sasha5685.github.io/UZapret/**
