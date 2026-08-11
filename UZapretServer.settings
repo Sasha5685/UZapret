@@ -1,7 +1,7 @@
-Version:0.0.7
+Version:0.0.8
 VersionDiscordAndYoutube:1.10.1
 DeffoultStartDiscordAndYoutube:general (ALT3).bat
-VersionTgWsProxy:1.5.1
+VersionTgWsProxy:1.9.1
 DeffoultStartDisTgWsProxy:TgWsProxy.exe
-VersionRobloxZapret:1.0
+VersionRobloxZapret:2.0
 RobloxFileName:AllZapretDir.txt
